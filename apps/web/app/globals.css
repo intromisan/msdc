@@ -7,7 +7,10 @@
 
 @theme {
   --color-primary: #ab7aee;
-  --color-secondary: #ff8c00;
+  --color-secondary: #ff5b30;
+  --color-gradient-primary-from: #d3b6f7;
+  --color-gradient-primary-mid: #ab7aee;
+  --color-gradient-primary-to: #7b50ce;
 }
 
 @theme inline {
@@ -37,4 +40,8 @@ h4,
 h5,
 h6 {
   font-family: var(--font-stapel);
+}
+
+.bg-gradient-primary {
+  @apply bg-gradient-to-br to-gradient-primary-from from-0% via-gradient-primary-mid via-63% to-gradient-primary-to to-100%;
 }

@@ -11,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200">
+    <nav>
       <button
         type="button"
         className="items-center p-2 w-10 h-10 justify-center text-sm md:hidden"
