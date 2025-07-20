@@ -29,11 +29,7 @@ const MobileNav: FC<Props> = ({ isOpen, onClose }) => {
       >
         {navigationLinks.map((link) => {
           return (
-            <a
-              key={link.path}
-              href={link.path}
-              className="text-black py-4 text-xl w-fit"
-            >
+            <a key={link.path} href={link.path} className="py-4 text-xl w-fit">
               <span>{link.title}</span>
             </a>
           );

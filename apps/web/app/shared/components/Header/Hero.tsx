@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <div className="flex flex-col items-center mt-9">
-      <h1 className="text-[28px] text-black">
+      <h1 className="text-[28px]">
         Освойте профессию HR - и начните{" "}
         <span className="text-primary">зарабатывать</span> после прохождения
         курса
@@ -28,7 +28,7 @@ const Hero = () => {
         работа с реальными задачами. Все для уверенного старта карьеры в новой
         сфере.
       </p>
-      <button className="bg-secondary w-60 h-20 rounded-2xl text-lg font-sans mt-9">
+      <button className="bg-secondary w-60 h-20 rounded-2xl text-lg text-white font-sans mt-9">
         Записаться на курс
       </button>
       <div className="w-90 h-100 relative flex justify-center items-center mt-9">
