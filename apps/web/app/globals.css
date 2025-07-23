@@ -36,5 +36,13 @@ h6 {
 }
 
 .bg-gradient-primary {
-  @apply bg-gradient-to-br to-gradient-primary-from from-0% via-gradient-primary-mid via-63% to-gradient-primary-to to-100%;
+  @apply bg-gradient-to-br from-gradient-primary-from from-0% via-gradient-primary-mid via-63% to-gradient-primary-to to-100%;
+}
+
+.corporate-circle-icon {
+  @apply absolute size-[35px] bg-gray-200 rounded-full border-3 border-white flex items-center justify-center p-1;
+}
+
+.corporate-circle-image {
+  @apply absolute size-[35px] rounded-full border-3 border-white overflow-hidden;
 }

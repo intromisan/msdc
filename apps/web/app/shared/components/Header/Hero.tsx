@@ -17,7 +17,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-9">
+    <div className="flex flex-col items-center mt-9 px-6">
       <h1 className="text-[28px]">
         Освойте профессию HR - и начните{" "}
         <span className="text-primary">зарабатывать</span> после прохождения

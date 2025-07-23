@@ -21,8 +21,8 @@ const Services = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-9">
-      <h2 className="text-3xl mb-2">
+    <div className="flex flex-col mt-9">
+      <h2 className="text-3xl mb-2 text-center">
         Наши <span className="text-secondary">направления</span>:
       </h2>
       {servicesList.map((service) => (
