@@ -2,12 +2,13 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #3f3f3f;
 }
 
 @theme {
   --color-primary: #ab7aee;
   --color-secondary: #ff5b30;
+  --color-dark: #3f3f3f;
   --color-gradient-primary-from: #d3b6f7;
   --color-gradient-primary-mid: #ab7aee;
   --color-gradient-primary-to: #7b50ce;
