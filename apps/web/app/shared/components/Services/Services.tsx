@@ -21,29 +21,37 @@ const Services = () => {
   ];
 
   return (
-    <div className="flex flex-col mt-9">
-      <h2 className="text-3xl mb-2 text-center">
-        Наши <span className="text-secondary">направления</span>:
-      </h2>
-      {servicesList.map((service) => (
-        <ServiceCard
-          key={service.title}
-          title={service.title}
-          description={service.description}
-        />
-      ))}
-      <div className="w-full h-85 relative">
-        <div className="bg-[#FE9879] size-[268px] rounded-[49px] absolute bottom-0 overflow-hidden">
-          <Image src="/services-photo.png" width={304} height={320} alt="" />
+    <div className="flex flex-col mt-9 lg:mt-40 max-w-screen-2xl mx-auto lg:px-28">
+      <div className="lg:flex lg:flex-row-reverse">
+        <div className="w-full flex flex-col lg:items-start">
+          <h2 className="text-3xl mb-2 text-center">
+            Наши <span className="text-secondary">направления</span>:
+          </h2>
+          {servicesList.map((service) => (
+            <ServiceCard
+              key={service.title}
+              title={service.title}
+              description={service.description}
+            />
+          ))}
         </div>
-        <div className="size-[268px] absolute bottom-10 left-12">
-          <Image
-            src="/services-photo-2.png"
-            width={304}
-            height={320}
-            className="scale-116"
-            alt=""
-          />
+        <div className="w-full h-85 xl:h-100  relative ">
+          <div className="bg-[#FE9879] size-[268px] rounded-[49px] absolute bottom-0 overflow-hidden xl:size-[350px]">
+            <Image
+              src="/services-photo.png"
+              fill
+              alt=""
+              className="object-contain"
+            />
+          </div>
+          <div className="size-[268px] xl:size-[350px] absolute left-[45px] bottom-[30px] xl:left-[61px] xl:bottom-[45px]">
+            <Image
+              src="/services-photo-2.png"
+              fill
+              alt=""
+              className="object-contain scale-120"
+            />
+          </div>
         </div>
       </div>
     </div>
