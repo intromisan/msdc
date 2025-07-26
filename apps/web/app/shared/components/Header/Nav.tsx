@@ -27,14 +27,17 @@ const Nav = () => {
         ></span>
       </button>
       <MobileNav isOpen={isOpen} onClose={handleClick} />
-      <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <div
+        className="hidden w-full md:w-auto md:flex items-center"
+        id="navbar-default"
+      >
+        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
           {navigationLinks.map((link) => {
             return (
               <li key={link.path}>
                 <a
                   href={link.path}
-                  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                  className="block py-2 px-3 text-white hover:text-primary md:bg-transparent md:text-dark md:p-0 md:font-sans border-b-3 border-transparent hover:border-primary transition-all duration-15"
                   aria-current="page"
                 >
                   {link.title}
@@ -43,6 +46,10 @@ const Nav = () => {
             );
           })}
         </ul>
+
+        <button className="bg-secondary font-sans text-white rounded-lg py-2.5 px-6 ml-8">
+          Оставить заявку
+        </button>
       </div>
     </nav>
   );

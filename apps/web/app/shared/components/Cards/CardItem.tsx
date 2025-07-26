@@ -14,8 +14,8 @@ const CardItem: FC<Props> = ({ title, description, buttonText, link }) => {
         <h3 className="text-2xl">{title}</h3>
         <p className="mt-3.5 text-lg">{description}</p>
       </div>
-      <div className="bg-black w-full text-white text-lg flex items-center justify-center rounded-2xl mx-auto min-h-14">
-        <a className="px-2" href={link}>
+      <div className="bg-black w-full text-white text-lg flex items-center justify-center rounded-2xl mx-auto min-h-14 md:w-fit md:mx-0">
+        <a className="px-2 md:px-6" href={link}>
           {buttonText}
         </a>
       </div>
