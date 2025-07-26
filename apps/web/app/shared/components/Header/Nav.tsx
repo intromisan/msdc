@@ -47,7 +47,7 @@ const Nav = () => {
           })}
         </ul>
 
-        <button className="bg-secondary font-sans text-white rounded-lg py-2.5 px-6 ml-8">
+        <button className="bg-secondary font-sans text-white rounded-lg py-2.5 px-6 ml-8 hover:cursor-pointer">
           Оставить заявку
         </button>
       </div>
