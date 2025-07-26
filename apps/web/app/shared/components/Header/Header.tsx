@@ -4,7 +4,7 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <>
-      <header className="=sticky top-0 z-40 w-full bg-white px-6">
+      <header className="=sticky top-0 z-40 w-full bg-white px-6 max-w-screen-2xl mx-auto lg:px-28">
         <div className="flex flex-wrap items-center justify-between py-5 border-b border-gray-400">
           <a
             href="#"

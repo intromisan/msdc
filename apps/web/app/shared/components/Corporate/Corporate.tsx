@@ -27,7 +27,7 @@ const Corporate = () => {
   ];
 
   return (
-    <div className="mt-12 flex flex-col items-center">
+    <div className="mt-12 flex flex-col items-center max-w-screen-2xl mx-auto lg:px-28">
       <div>
         <h3 className="text-3xl text-center">Корпоративным клиентам</h3>
         <p className="text-lg my-2 text-gray-500 text-center">

@@ -7,7 +7,7 @@ import Services from "./shared/components/Services/Services";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-white max-w-screen-2xl mx-auto lg:px-28">
+    <div className="flex flex-col min-h-screen bg-white ">
       <Header />
       <div className="px-6">
         <Cards />

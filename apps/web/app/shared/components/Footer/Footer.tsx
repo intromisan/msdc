@@ -6,7 +6,7 @@ import TelegramIcon from "../../icons/TelegramIcon";
 
 const Footer = () => {
   return (
-    <div className="mt-20 bg-[#FFCCBD] px-6 py-12">
+    <div className="mt-20 w-full bg-[#FFCCBD] px-6 py-12 mx-auto lg:px-56">
       <h3 className="text-dark text-2xl">MSDC</h3>
       <div className="flex flex-col md:flex-row md:items-start md: justify-between">
         <p className="text-dark mt-5">Стань лучшей версией себя</p>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const GrowCard = () => {
   return (
-    <div className="relative flex flex-col mt-9 bg-gradient-to-b from-[#7B50CE] to-[#D3B6F7] rounded-lg px-6 py-16 overflow-hidden">
+    <div className=" w-full max-w-screen-2xl mx-auto relative flex flex-col mt-9 bg-gradient-to-b from-[#7B50CE] to-[#D3B6F7] rounded-lg px-6 py-16 overflow-hidden">
       <Image
         src="/circles.png"
         alt=""
