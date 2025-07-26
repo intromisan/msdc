@@ -31,7 +31,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-9 lg:mt-40 xl:mt-48 max-w-screen-2xl mx-auto lg:px-28">
+    <div className="flex flex-col items-center mt-9 lg:mt-40 xl:mt-48 max-w-screen-2xl mx-auto lg:px-28 xl:px-36">
       <h2 className="font-sans text-3xl lg:text-4xl xl:text-5xl">
         МЫ - <span className="text-primary border-b-4 pb-1">MSDC EdTech</span>
       </h2>

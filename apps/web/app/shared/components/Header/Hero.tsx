@@ -17,7 +17,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="max-w-screen-2xl mx-auto lg:px-28 flex flex-col items-center mt-9 px-6 lg:flex-row lg:justify-between lg:mt-15">
+    <div className="max-w-screen-2xl mx-auto lg:px-28 xl:px-36 flex flex-col items-center mt-9 px-6 lg:flex-row lg:justify-between lg:mt-15">
       <div className="flex flex-col items-center lg:items-start lg:w-[54%]">
         <h1 className="text-[28px] lg:text-4xl lg:leading-14 xl:text-5xl xl:leading-20">
           Освойте профессию HR - и начните{" "}
